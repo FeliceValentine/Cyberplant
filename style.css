@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,800;1,200&display=swap');
+
+body {
+    background-color: #081c15;
+    color: #b7e4c7;
+    font-family: 'Nunito', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.backgr {
+    margin-top: 3rem;
+    width: 50vw;
+    height: 50vh;
+    background-image: url("bckgr.png");
+    border-radius: 15px;
+}
+
+.plantContainer {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.plant {
+    border-radius: 100%;
+    border: 4px #114130 solid;
+}
+.deadPlant {
+    display: none;
+    border-radius: 100%;
+    border: 4px #913a22 solid;
+}
+.controls {
+    padding: 2rem;
+}
+button{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin:1rem;
+    border: 4px #114130 solid;
+    color: #e9edc9;
+    font-family: 'Nunito', sans-serif;
+}
+button:hover{
+    scale: 1.15;
+    cursor: pointer;
+}
+
+.sun {
+    background: #f2cc8f;
+    color:#b47817;
+}
+.water {
+    background: #3d405b;
+    color:#afb2d1;
+}
+.fert {
+    background: #e07a5f;
+    color:#913a22;
+}
+
+.progressBar {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bar {
+    width: 400px;
+    height: 35px;
+    border: 2.5px #f2cc8f solid;
+    border-radius: 10px;
+}
+.barBckr {
+    background: #b7e4c7;
+    border-radius: 8px;
+    width:50%;
+    height: 35px;
+}
+.startAg{
+    background-color:#283618;
+    color: #e9edc9;
+    display: none;
+}
